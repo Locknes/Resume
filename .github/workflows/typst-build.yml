@@ -28,7 +28,7 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: compiled-resume
-          path: resume.pdf
+          path: "Ian Caisse - Senior Systems Engineer - April 2026.pdf"
 
       - name: Commit PDF back to Repository
         run: |
