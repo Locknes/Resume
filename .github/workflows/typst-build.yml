@@ -34,7 +34,7 @@ jobs:
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
-          git add resume.pdf
+          git add "Ian Caisse - Senior Systems Engineer - April 2026.pdf"
           
           # This prevents the workflow from failing if the PDF hasn't changed
           git diff --staged --quiet || git commit -m "chore: auto-compile resume.pdf"

@@ -92,7 +92,7 @@ Senior Systems Engineer with over 10 years of experience specializing in Azure C
   "October 2019 - March 2020",
 )[
   - Technical support for roughly 4,500 users of Windows, iOS and Android systems and related software, including but not limited to: Citrix VPN, Citrix Workspace, Microsoft Office, and Active Directory.
-  - Managed ticket queue and supported management via weekly reports.
+  - Managed ticket queue and supported management via weekly KPI reports.
 ]
 
 #job-entry(
