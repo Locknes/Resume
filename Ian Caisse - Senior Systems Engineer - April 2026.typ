@@ -140,7 +140,7 @@ Senior Systems Engineer with over 10 years of experience specializing in Azure C
   "2013 - Present",
 )[
   - Two node hyperconverged cluster running Windows Server 2025 Datacenter.
-  - Active Directory domain for authentication and identity management, with some services integrated via Entra ID.
+  - AD domain for authentication and identity management, with some services integrated via Entra ID.
   - Running production workloads in a hybrid physical/virtual Kubernetes (K3s) cluster with Embedded ETCD.
   - Core services include Rancher, Nginx, Cloudflare, KubeVIP, NetData, Grafana, and Loki.
   - New machines are deployed via CI/CD from GitHub and managed via Ansible.
