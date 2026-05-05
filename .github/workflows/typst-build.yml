@@ -19,23 +19,28 @@ jobs:
       - name: Setup Typst
         uses: typst-community/setup-typst@v3
 
-      - name: Compile Resume
-        # Replace 'resume.typ' and 'resume.pdf' with your actual filenames
-        run: typst compile "Ian Caisse - Senior Systems Engineer - April 2026.typ" "Ian Caisse - Senior Systems Engineer - April 2026.pdf"
+      - name: Compile all Typst files
+        run: |
+          mkdir -p compiled
+          for file in *.typ; do
+            if [ -f "$file" ]; then
+              filename=$(basename "$file" .typ)
+              typst compile "$file" "compiled/${filename}.pdf"
+            fi
+          done
 
-
-      - name: Upload PDF as Artifact
+      - name: Upload PDFs as Artifact
         uses: actions/upload-artifact@v4
         with:
-          name: compiled-resume
-          path: "Ian Caisse - Senior Systems Engineer - April 2026.pdf"
+          name: compiled-resumes
+          path: compiled/
 
       - name: Commit PDF back to Repository
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
-          git add "Ian Caisse - Senior Systems Engineer - April 2026.pdf"
+          git add compiled/
           
-          # This prevents the workflow from failing if the PDF hasn't changed
-          git diff --staged --quiet || git commit -m "chore: auto-compile resume.pdf"
+          # This prevents the workflow from failing if the PDFs haven't changed
+          git diff --staged --quiet || git commit -m "chore: auto-compile resumes"
           git push
