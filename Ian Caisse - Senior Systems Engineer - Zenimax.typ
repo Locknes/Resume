@@ -28,11 +28,13 @@
 // --- RESUME HEADER ---
 
 #align(center)[
+  
   #text(size: 24pt, weight: "bold")[IAN CAISSE] \
   #v(0.2em)
   #text(size: 12pt)[*Senior Systems Engineer*] \
   #v(0.2em)
-  #link("mailto:Ian.P.Caisse@gmail.com")[Ian.P.Caisse\@gmail.com] | #link("https://www.linkedin.com/in/icaisse/")[linkedin.com/in/icaisse] | Mobile: Available on Request
+  #link("mailto:Ian.P.Caisse@gmail.com")[Ian.P.Caisse\@gmail.com] |
+  #link("https://www.linkedin.com/in/icaisse/")[linkedin.com/in/icaisse] | Mobile: Available on Request
 ]
 #v(1em)
 
@@ -59,7 +61,10 @@ Senior Systems Engineer with over 10 years of experience specializing in VMware 
   "Senior Systems Engineer",
   "September 2022 - April 2026",
 )[
-  - Architected the modernization and migration of legacy VMware platforms to a hyper-converged VxRail environment, ensuring high availability and optimal performance.
+  - Engineered and maintained software-defined datacenter (SDDC) infrastructure using VMware Cloud Foundation (VCF) to deliver highly available and scalable compute, storage, and networking.
+  - Drove the consolidation and migration of legacy virtualized platforms into a modern VCF architecture on hyper-converged VxRail, optimizing cluster resource utilization and eliminating configuration drift. 
+  - Leveraged VMware Aria Operations to monitor overall infrastructure health, tracking critical uptime KPIs and proactively identifying underlying hardware degradation to prevent service disruptions.
+  - Maintained fleet configuration compliance by building reporting dashboards in Aria Operations to audit guest OS versions and ensure uniform deployment of VMware Tools across all virtual endpoints.
   - Serving as the subject matter expert and mentor for Ansible and Red Hat Satellite, directed automated deployments, managed comprehensive VMware and Linux patching lifecycles, and developed custom PowerShell and Bash tools to eliminate configuration drift.
   - Architected scalable identity architectures, integrating custom Role-Based Access Control (RBAC) and Active Directory/Entra ID to enforce least-privilege access across distributed environments.
   - Managed robust CI/CD pipelines via Azure DevOps, implementing Infrastructure as Code to streamline operations and ensure consistent patching and compliance across all hardware.
@@ -82,7 +87,9 @@ Senior Systems Engineer with over 10 years of experience specializing in VMware 
 )[
   - System Engineer maintaining VMware VxRail, Citrix, and Dell VRTX Blade Servers across production deployments.
   - Managed and migrated VMware environments, executing complex firmware updates and hardware lifecycles on Dell hardware.
-  - Administered VM provisioning and utilized VMware Aria Operations & Automation (vRealize) for cluster monitoring, alerting, and automated workflows.
+  - Streamlined the virtual machine lifecycle by utilizing VMware Aria Automation to standardize and accelerate the provisioning of new VM deployments across the enterprise cluster.
+  - Leveraged VMware Aria Operations to monitor overall infrastructure health, tracking critical uptime KPIs and proactively identifying underlying hardware degradation to prevent service disruptions.
+  - Maintained fleet configuration compliance by building reporting dashboards in Aria Operations to audit guest OS versions and ensure uniform deployment of VMware Tools across all virtual endpoints.
   - Monitored infrastructure alerts using Splunk and drove process optimization and asset management.
 ]
 
