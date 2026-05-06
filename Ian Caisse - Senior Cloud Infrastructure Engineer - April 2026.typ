@@ -30,7 +30,7 @@
 #align(center)[
   #text(size: 24pt, weight: "bold")[IAN CAISSE] \
   #v(0.2em)
-  #text(size: 12pt)[*Senior System Engineer*] \
+  #text(size: 12pt)[*Senior Cloud Infrastructure Engineer*] \
   #v(0.2em)
   #link("mailto:Ian.P.Caisse@gmail.com")[Ian.P.Caisse\@gmail.com] | #link("https://www.linkedin.com/in/icaisse/")[linkedin.com/in/icaisse] | Mobile: Available on Request
 ]
@@ -39,7 +39,7 @@
 // --- Summary ---
 
 #section-header("Summary")
-Senior Systems Engineer with over 10 years of experience specializing in Azure Cloud Architecture, Hybrid Infrastructure, and Automation. Proven track record in engineering enterprise-grade Landing Zones, migrating legacy VMware environments to modern HCI (VxRail), and implementing robust CI/CD pipelines using Bicep and Ansible. Expert in identity management (Entra ID/PIM) and infrastructure hardening, with a focus on scalability, security, and eliminating configuration drift through Infrastructure as Code.
+Senior Cloud Infrastructure Engineer with over 10 years of progressive IT experience, delivering modern solutions in Azure Cloud Architecture, Hybrid Infrastructure, and Automation. Proven track record in engineering enterprise-grade Landing Zones, migrating legacy VMware environments to modern HCI (VxRail), and implementing robust CI/CD pipelines using Bicep and Ansible. Expert in identity management (Entra ID/PIM) and infrastructure hardening, with a focus on scalability, security, and eliminating configuration drift through Infrastructure as Code.
 
 // --- CORE COMPETENCIES ---
 
@@ -56,7 +56,7 @@ Senior Systems Engineer with over 10 years of experience specializing in Azure C
 
 #job-entry(
   "Public Company Accounting and Oversight Board",
-  "Senior Systems Engineer",
+  "Senior Cloud Infrastructure Engineer",
   "September 2022 - April 2026",
 )[
   - Engineered comprehensive Azure cloud solutions, implementing the Microsoft Cloud Adoption Framework, Azure Policy, B2C, and CI/CD pipelines via Azure DevOps and Bicep templating.
